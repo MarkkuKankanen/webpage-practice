@@ -1,10 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+}
 .header {
   background-color: #1f2937;
+}
+
+.header-logo {
+  font-size: 24px;
+  color: #f9faf8;
 }
 
 .hero-main-text {
   font-size: 48px;
   font-weight: bolder;
+  color: #f9faf8;;
 }
 .hero-secondary-text,
 .header-links {
@@ -16,4 +26,14 @@ a {
 }
 a:visited {
   color: #e5e7eb;
+}
+
+.header-logo-links-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-page-picture {
+  height: 200px;
+  width: 400px;
 }
